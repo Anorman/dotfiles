@@ -14,10 +14,10 @@
   cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'SpliceInit'"
   trustExitCode = true
 [user]
-  name = Jared Norman
-  email = jared@super.gd
+  name = Alistair Norman
+  email = 4l15741r@gmail.com
 [github]
-  user = jarednorman
+  user = Anorman
 [alias]
   a = add
   b = branch
