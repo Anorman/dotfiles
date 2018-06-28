@@ -8,6 +8,7 @@ path=(
     $HOME/bin/local
     $HOME/Codes/elixir/bin
     $HOME/.luarocks/bin
+    $HOME/.fzf/bin
     /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
     /usr/local/{bin,sbin}
     /usr/local/share/npm/bin
@@ -29,5 +30,5 @@ if [[ -z "$LANG" ]]; then
 fi
 
 # FZF
-export FZF_DEFAULT_OPTS='-e --color=fg:8,bg:0,fg+:15,bg+:19,info:19,hl:3,hl+:3,pointer:3,prompt:3,spinner:3'
+export FZF_DEFAULT_OPTS='--color=fg:8,bg:0,fg+:15,bg+:19,info:19,hl:3,hl+:3,pointer:3,prompt:3,spinner:3'
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!.git/*"'

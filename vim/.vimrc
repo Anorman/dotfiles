@@ -10,7 +10,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-eunuch'
 
 Plug 'mileszs/ack.vim'
-Plug '/usr/local/opt/fzf'
+Plug '~/.fzf'
 
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-haml'
